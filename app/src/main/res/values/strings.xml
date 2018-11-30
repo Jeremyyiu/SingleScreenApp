@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuayOneScreenApp</string>
+    <string name="business_info">The 2017 Sydney Morning Herald Good Food Restaurant of the Year, Quay is one of Australia’s most awarded and celebrated restaurants. Set in the heart of Sydney Harbour, Quay has arguably the best views of any restaurant in Australia, with spectacular panoramic views taking in Circular Quay, the Sydney Opera House and the Sydney Harbour Bridge. Captivating the imagination of critics and the dining public alike is Quay’s nature-based menu created by Executive Chef Peter Gilmore.</string>
+    <string name="opening_hours"><b>Opening Hours</b></string>
+    <string name="lunch_service"><font color="#868686"><b>Lunch Service</b></font>\nFriday, Saturday and Sunday:\nBookings from 12pm - 1.30pm</string>
+    <string name="dinner_service"><font color="#868686"><b>Dinner Service</b></font>\nDaily: \nBookings from 6pm - 9.30pm</string>
+    <string name="address">Upper Level, Overseas Passenger Terminal, \nThe Rocks, Sydney 2000 \nPhone: 02 9251 5600\nwww.quay.com.au\n</string>
+    <string name="location"><b>Location</b></string>
+    <string name="summary">Summary</string>
+</resources>
+
