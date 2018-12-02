@@ -34,37 +34,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/photo_of_quay_restaurant"
                 android:src="@drawable/quay_photo" />
-
 
             <TextView
                 android:id="@+id/Quay_Summary_Title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/headerTitleTheme"
                 android:layout_marginTop="20dp"
-                android:fontFamily="BrandonGrotesque-Light"
-                android:text="@string/summary"
-                android:textColor="#ffffff"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                android:text="@string/summary" />
 
             <TextView
                 android:id="@+id/business_info"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/business_info"
-                android:textColor="#ffffff"
-                android:textSize="13sp" />
+                style="@style/textTheme"
+                android:breakStrategy="balanced"
+                android:justificationMode="inter_word"
+                android:text="@string/business_info" />
 
             <TextView
                 android:id="@+id/opening_hours"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/headerTitleTheme"
                 android:layout_marginTop="20dp"
-                android:fontFamily="BrandonGrotesque-Light"
-                android:text="@string/opening_hours"
-                android:textColor="#ffffff"
-                android:textSize="14sp" />
+                android:text="@string/opening_hours" />
 
             <RelativeLayout
                 android:layout_width="fill_parent"
@@ -72,43 +62,29 @@
 
                 <TextView
                     android:id="@+id/lunch_service"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/textTheme"
+                    android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
-                    android:fontFamily="BrandonGrotesque-Light"
-                    android:text="@string/lunch_service"
-                    android:textColor="#ffffff"
-                    android:textSize="12sp" />
+                    android:text="@string/lunch_service" />
 
                 <TextView
                     android:id="@+id/dinner_service"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/textTheme"
+                    android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
-                    android:fontFamily="BrandonGrotesque-Light"
-                    android:text="@string/dinner_service"
-                    android:textColor="#ffffff"
-                    android:textSize="12sp" />
+                    android:text="@string/dinner_service" />
             </RelativeLayout>
 
             <TextView
                 android:id="@+id/Location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/headerTitleTheme"
                 android:layout_marginTop="20dp"
-                android:fontFamily="BrandonGrotesque-Light"
-                android:text="@string/location"
-                android:textColor="#ffffff"
-                android:textSize="14sp" />
+                android:text="@string/location" />
 
             <TextView
                 android:id="@+id/address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="BrandonGrotesque-Light"
-                android:text="@string/address"
-                android:textColor="#ffffff"
-                android:textSize="12sp" />
+                style="@style/textTheme"
+                android:text="@string/address" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
